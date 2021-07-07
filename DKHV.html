@@ -1,10 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Đăng Ký Học Viên</title>
 </head>
 <body>
-$END$
+<form method="get" action="DKHV.html" >
+  <table style="background-color: lightgoldenrodyellow">
+    <tr>
+      <th colspan="2" style="color: blue">
+        <h2 style="background-color: lightskyblue">ĐĂNG KÝ HỌC VIÊN</h2>
+      </th>
+    </tr>
+    <tr>
+      <td style="color: blue">Họ và tên:</td>
+      <td style="color: blue"><input type="text" name="name" placeholder="Tên của bạn"></td>
+    </tr>
+    <tr>
+      <td style="color: blue">Ngày sinh:</td>
+      <td><input type="text" name="age" placeholder="Tuổi của bạn"></td>
+    </tr>
+    <tr>
+      <td style="color: blue">Giới tính: </td>
+      <td>
+        <input name="hobby" value="nam" type="radio">Nam
+        <input name="hobby" value="nu" type="radio">Nữ</td>
+    </tr>
+    <tr>
+      <td style="color: blue">Địa chỉ: </td>
+      <td><textarea cols="50" rows="4">Nhập địa chỉ tại đây </textarea></td>
+    </tr>
+    <tr>
+      <td style="color: blue">Lớp: </td>
+      <td>
+        <select name="class">
+          <option value="chonlop">-Chọn Lớp-</option>
+          <option value="UNETI">ĐH Kinh tế - kỹ thuật Công Nghiệp</option>
+          <option value="NEU"> ĐH Kinh Tế Quốc Dân </option>
+          <option value="RMIT">ĐH Rmit</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td style="color: blue">Email </td>
+      <td><input type="text" name="email" placeholder="Email của bạn"></td>
+    </tr>
+    <tr>
+      <td style="color: blue">Điện thoại: </td>
+      <td><input type="number" name="phone" placeholder="Nhập số điện thoại"></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <input type="submit" value="Đăng ký">
+        <input type="reset" value="Nhập lại">
+      </td>
+    </tr>
+  </table>
+</form>
 </body>
 </html>
