@@ -5,6 +5,7 @@
     <title>Survey Khách Hàng</title>
 </head>
 <body>
+<form action="">
 <h2>Market Research Survey</h2>
 <p>Please take a few moments to complete this satisfaction survey.</p>
 <h3>What is your age range?</h3>
@@ -37,6 +38,40 @@
 <input type="radio" name="product"> Monthly <br>
 <h3>What would you pay for the new product?</h3>
 $ <input type="text" style="width: 70px"> . <input type="text" style="width:20px">
-
+<h3>What features would you like to see in the new product</h3>
+<textarea cols="50" rows="5"></textarea>
+<p>Please rate your level of argeement with the following statements </p>
+<table border="1">
+    <tr style="background-color: rgba(41,39,41,0.79)">
+        <td></td>
+        <th>Strongly</th>
+        <th>Disagree</th>
+        <th>Agree</th>
+        <th>Strongly Agree</th>
+    </tr>
+    <tr align="center">
+        <th align="left">Our product are priced fairly</th>
+        <td><input type="radio" name="rate"><br>1</td>
+        <td><input type="radio" name="rate"><br>2</td>
+        <td><input type="radio" name="rate"><br>3</td>
+        <td><input type="radio" name="rate"><br>4</td>
+    </tr>
+    <tr align="center" style="background-color: rgba(99,97,99,0.79)">
+        <th align="left">Our product are high quality</th>
+        <td><input type="radio" name="rate2"><br>1</td>
+        <td><input type="radio" name="rate2"><br>2</td>
+        <td><input type="radio" name="rate2"><br>3</td>
+        <td><input type="radio" name="rate2"><br>4</td>
+    </tr>
+    <tr align="center">
+        <th align="left">You would recommend our product to a friend or cowoker.</th>
+        <td><input type="radio" name="rate3"><br>1</td>
+        <td><input type="radio" name="rate3"><br>2</td>
+        <td><input type="radio" name="rate3"><br>3</td>
+        <td><input type="radio" name="rate3"><br>4</td>
+    </tr>
+</table>
+    <input type="submit" value="SUBMIT">
+</form>
 </body>
 </html>
